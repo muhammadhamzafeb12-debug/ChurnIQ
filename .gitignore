@@ -1,0 +1,26 @@
+.streamlit/secrets.toml
+
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and private configuration
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local logs
+*.log
+
+# Private development backups
+app_backup.py
+app_before_*.py
+*.ipynb
+
+# Local environment files
+.DS_Store
+
+# Dataset and trained model - temporary security hold
+*.csv
+*.pkl
