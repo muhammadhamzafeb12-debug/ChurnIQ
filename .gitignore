@@ -24,3 +24,7 @@ app_before_*.py
 # Dataset and trained model - temporary security hold
 *.csv
 *.pkl
+
+# Allow only approved deployment files
+!telco_churn_public.csv
+!churn_pipeline.pkl

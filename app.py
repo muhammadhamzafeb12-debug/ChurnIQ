@@ -15,7 +15,7 @@ st.set_page_config(
 )
 
 MODEL_PATH = Path("churn_pipeline.pkl")
-DATA_PATH = Path("WA_Fn-UseC_-Telco-Customer-Churn (1).csv")
+DATA_PATH = Path("telco_churn_public.csv")
 
 st.markdown("""
 <style>
